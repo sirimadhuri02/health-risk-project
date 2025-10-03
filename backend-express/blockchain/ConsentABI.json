@@ -1,0 +1,22 @@
+[
+  {
+    "inputs": [
+      { "internalType": "string", "name": "userId", "type": "string" },
+      { "internalType": "string", "name": "timestamp", "type": "string" }
+    ],
+    "name": "storeConsent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [{ "internalType": "string", "name": "", "type": "string" }],
+    "name": "consents",
+    "outputs": [
+      { "internalType": "string", "name": "userId", "type": "string" },
+      { "internalType": "string", "name": "timestamp", "type": "string" }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
